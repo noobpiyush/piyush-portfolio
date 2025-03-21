@@ -50,11 +50,11 @@ export const Projects = () => {
             />
 
             <ProjectCard
-              title="Open Source Contribution: Database ORM"
-              description="Active contributor to a popular database ORM library, implementing performance optimizations and new features."
-              technologies={["TypeScript", "PostgreSQL", "MySQL", "SQLite", "Testing"]}
+              title="Open Source Contribution: 100x cms"
+              description="contributor to a popular online learing system app.100xdevs.com."
+              technologies={["TypeScript", "PostgreSQL", "MySQL", "Prisma", "Next.js", "Tailwind CSS"]}
               image="/proj1.png"
-              githubUrl="https://github.com"
+              githubUrl="https://github.com/noobpiyush?tab=overview&from=2024-10-01&to=2024-10-31&org=code100x"
             />
             </div>
         </section>

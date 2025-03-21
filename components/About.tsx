@@ -5,8 +5,8 @@ export const About = () => {
         <div>
           <img
             src="/badrinath.jpeg"
-            alt="John Doe"
-            className="rounded-lg shadow-lg h-[370px] [object-fit:contain]"
+            alt="Piyush Waaghela"
+            className="rounded-lg shadow-lg h-[370px] object-contain"
           />
         </div>
         <div className="space-y-6">
@@ -14,22 +14,16 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-muted-foreground">
-            I'm a full stack developer with 5+ years of experience specializing
-            in backend development. My expertise lies in designing and
-            implementing scalable server architectures, RESTful APIs, and
-            database systems that power high-performance applications.
+            I'm a passionate front-end developer and a recent graduate in Electronics & Computer Science.  
+            I specialize in building modern, responsive web applications using React.js, Next.js, TypeScript, and Tailwind CSS.
           </p>
           <p className="text-muted-foreground">
-            With a strong foundation in computer science and a passion for
-            clean, efficient code, I approach each project with a focus on
-            performance, security, and maintainability. I enjoy solving complex
-            technical challenges and continuously expanding my knowledge of
-            emerging technologies and best practices.
+            Through hands-on projects and open-source contributions, I've honed my skills in creating intuitive UIs, optimizing performance,  
+            and implementing state management using Redux and Recoil. I love crafting seamless digital experiences with a strong focus on user experience.
           </p>
           <p className="text-muted-foreground">
-            When I'm not coding, you can find me contributing to open-source
-            projects, mentoring junior developers, or exploring the latest
-            advancements in cloud computing and microservices.
+            I'm actively seeking opportunities to contribute to a dynamic team where I can learn, grow, and apply my expertise  
+            to real-world applications. Feel free to connect with me!
           </p>
         </div>
       </div>

@@ -83,18 +83,11 @@ export const Projects = () => {
         />
 
         <ProjectCard
-          title="Open Source Contribution: 100x cms"
-          description="contributor to a popular online learing system app.100xdevs.com."
-          technologies={[
-            "TypeScript",
-            "PostgreSQL",
-            "MySQL",
-            "Prisma",
-            "Next.js",
-            "Tailwind CSS",
-          ]}
-          image="/proj1.png"
-          githubUrl="https://github.com/noobpiyush?tab=overview&from=2024-10-01&to=2024-10-31&org=code100x"
+          title="Portfolio Website for Image Coach"
+          description="Developed a portfolio website for an image coach, 'Soft Skills Solutions by AASHNA SHAH'. The website empowers individuals to excel with soft skills training, focusing on communication, emotional intelligence, and teamwork. It includes sections to explore services and contact the coach."
+          technologies={["Next.js", "TypeScript", "Tailwind CSS"]}
+          image="/aashna.png" // Update the image path to the actual path of your project image
+          githubUrl="https://github.com/yourusername/image-coach-portfolio" // Update with the actual GitHub repository URL
         />
       </div>
     </section>

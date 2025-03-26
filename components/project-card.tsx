@@ -22,13 +22,13 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Card className="overflow-hidden flex flex-col h-full">
-      <div className="aspect-video overflow-hidden">
+      <Link href={demoUrl! || "google.com"} target="_blank" className="aspect-video overflow-hidden cursor-pointer">
         <img
           src={image || "/placeholder.svg"}
           alt={title}
           className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
         />
-      </div>
+      </Link>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>

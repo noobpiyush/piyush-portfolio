@@ -11,20 +11,19 @@ export const Projects = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
-          title="E-Commerce Microservices Platform"
-          description="Designed and implemented a scalable microservices architecture for a high-traffic e-commerce platform handling 10K+ transactions daily."
+          title="AI Content Studio"
+          description="AI Content Studio is a cutting-edge platform designed to revolutionize content creation. With advanced AI technology, users can effortlessly generate high-quality images, videos, and social media posts in seconds. Whether you're a marketer, a content creator, or a business owner, AI Content Studio provides a seamless and efficient way to produce professional content tailored to your needs. Harness the power of AI to boost your productivity and creativity."
           technologies={[
             "Node.js",
-            "Express",
-            "MongoDB",
-            "Redis",
-            "Docker",
-            "Kubernetes",
-            "AWS",
+            "Next.js",
+            "Gemini API",
+            "Typescript",
+            "Nextjs API Routes",
+            "React Compoenets"
           ]}
-          image="/proj1.png"
-          githubUrl="https://github.com"
-          demoUrl="https://example.com"
+          image="/Ai-content.png"
+          githubUrl="https://github.com/noobpiyush/AI-Contennt-Creation"
+          demoUrl="https://ai-contennt-creation.vercel.app"
         />
 
         <ProjectCard
